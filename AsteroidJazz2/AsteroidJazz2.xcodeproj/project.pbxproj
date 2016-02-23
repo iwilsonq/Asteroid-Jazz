@@ -7,24 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DC499531C7BEAAD0070D993 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DC499521C7BEAAD0070D993 /* ResourcePath.mm */; };
-		2DC499561C7BEAAD0070D993 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC499551C7BEAAD0070D993 /* main.cpp */; };
-		2DC499591C7BEAAD0070D993 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DC499581C7BEAAD0070D993 /* cute_image.jpg */; };
-		2DC4995B1C7BEAAD0070D993 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 2DC4995A1C7BEAAD0070D993 /* nice_music.ogg */; };
-		2DC4995D1C7BEAAD0070D993 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DC4995C1C7BEAAD0070D993 /* sansation.ttf */; };
-		2DC4995F1C7BEAAD0070D993 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC4995E1C7BEAAD0070D993 /* icon.png */; };
+		2DC4998A1C7BEB3E0070D993 /* Configuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC499651C7BEB3E0070D993 /* Configuration.cpp */; };
+		2DC4998B1C7BEB3E0070D993 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC499661C7BEB3E0070D993 /* Player.cpp */; };
+		2DC4998C1C7BEB3E0070D993 /* ResourceManager.tpl in Resources */ = {isa = PBXBuildFile; fileRef = 2DC499671C7BEB3E0070D993 /* ResourceManager.tpl */; };
+		2DC4998D1C7BEB3E0070D993 /* Saucer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC499681C7BEB3E0070D993 /* Saucer.cpp */; };
+		2DC4998E1C7BEB3E0070D993 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC499691C7BEB3E0070D993 /* Entity.cpp */; };
+		2DC4998F1C7BEB3E0070D993 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC4996A1C7BEB3E0070D993 /* Game.cpp */; };
+		2DC499901C7BEB3E0070D993 /* Shoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC4996B1C7BEB3E0070D993 /* Shoot.cpp */; };
+		2DC499911C7BEB3E0070D993 /* Entity.tpl in Resources */ = {isa = PBXBuildFile; fileRef = 2DC4996E1C7BEB3E0070D993 /* Entity.tpl */; };
+		2DC499921C7BEB3E0070D993 /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC499711C7BEB3E0070D993 /* World.cpp */; };
+		2DC499931C7BEB3E0070D993 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC499731C7BEB3E0070D993 /* Enemy.cpp */; };
+		2DC499941C7BEB3E0070D993 /* Meteor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC499741C7BEB3E0070D993 /* Meteor.cpp */; };
+		2DC499951C7BEB3E0070D993 /* Action.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC4997A1C7BEB3E0070D993 /* Action.cpp */; };
+		2DC499961C7BEB3E0070D993 /* ActionMap.tpl in Resources */ = {isa = PBXBuildFile; fileRef = 2DC4997D1C7BEB3E0070D993 /* ActionMap.tpl */; };
+		2DC499971C7BEB3E0070D993 /* ActionTarget.tpl in Resources */ = {isa = PBXBuildFile; fileRef = 2DC4997F1C7BEB3E0070D993 /* ActionTarget.tpl */; };
+		2DC499981C7BEB3E0070D993 /* Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC499811C7BEB3E0070D993 /* Collision.cpp */; };
+		2DC499991C7BEB3E0070D993 /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = 2DC499831C7BEB3E0070D993 /* sounds */; };
+		2DC4999A1C7BEB3E0070D993 /* musics in Resources */ = {isa = PBXBuildFile; fileRef = 2DC499841C7BEB3E0070D993 /* musics */; };
+		2DC4999B1C7BEB3E0070D993 /* font in Resources */ = {isa = PBXBuildFile; fileRef = 2DC499851C7BEB3E0070D993 /* font */; };
+		2DC4999C1C7BEB3E0070D993 /* Meteor in Resources */ = {isa = PBXBuildFile; fileRef = 2DC499861C7BEB3E0070D993 /* Meteor */; };
+		2DC4999D1C7BEB3E0070D993 /* Player in Resources */ = {isa = PBXBuildFile; fileRef = 2DC499871C7BEB3E0070D993 /* Player */; };
+		2DC4999E1C7BEB3E0070D993 /* Saucer in Resources */ = {isa = PBXBuildFile; fileRef = 2DC499881C7BEB3E0070D993 /* Saucer */; };
+		2DC4999F1C7BEB3E0070D993 /* Shoot in Resources */ = {isa = PBXBuildFile; fileRef = 2DC499891C7BEB3E0070D993 /* Shoot */; };
+		2DC499A61C7BEC9E0070D993 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC499A51C7BEC9E0070D993 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2DC4994D1C7BEAAD0070D993 /* AsteroidJazz2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsteroidJazz2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC499511C7BEAAD0070D993 /* AsteroidJazz2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AsteroidJazz2-Info.plist"; sourceTree = "<group>"; };
-		2DC499521C7BEAAD0070D993 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
-		2DC499541C7BEAAD0070D993 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
-		2DC499551C7BEAAD0070D993 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		2DC499581C7BEAAD0070D993 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		2DC4995A1C7BEAAD0070D993 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
-		2DC4995C1C7BEAAD0070D993 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		2DC4995E1C7BEAAD0070D993 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		2DC499651C7BEB3E0070D993 /* Configuration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Configuration.cpp; sourceTree = "<group>"; };
+		2DC499661C7BEB3E0070D993 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		2DC499671C7BEB3E0070D993 /* ResourceManager.tpl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ResourceManager.tpl; sourceTree = "<group>"; };
+		2DC499681C7BEB3E0070D993 /* Saucer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Saucer.cpp; sourceTree = "<group>"; };
+		2DC499691C7BEB3E0070D993 /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
+		2DC4996A1C7BEB3E0070D993 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		2DC4996B1C7BEB3E0070D993 /* Shoot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shoot.cpp; sourceTree = "<group>"; };
+		2DC4996C1C7BEB3E0070D993 /* Shoot.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Shoot.hpp; sourceTree = "<group>"; };
+		2DC4996D1C7BEB3E0070D993 /* Entity.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Entity.hpp; sourceTree = "<group>"; };
+		2DC4996E1C7BEB3E0070D993 /* Entity.tpl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Entity.tpl; sourceTree = "<group>"; };
+		2DC4996F1C7BEB3E0070D993 /* Player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		2DC499701C7BEB3E0070D993 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		2DC499711C7BEB3E0070D993 /* World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = World.cpp; sourceTree = "<group>"; };
+		2DC499721C7BEB3E0070D993 /* Configuration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Configuration.hpp; sourceTree = "<group>"; };
+		2DC499731C7BEB3E0070D993 /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		2DC499741C7BEB3E0070D993 /* Meteor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Meteor.cpp; sourceTree = "<group>"; };
+		2DC499751C7BEB3E0070D993 /* Meteor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Meteor.hpp; sourceTree = "<group>"; };
+		2DC499761C7BEB3E0070D993 /* Random.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Random.hpp; sourceTree = "<group>"; };
+		2DC499771C7BEB3E0070D993 /* Saucer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Saucer.hpp; sourceTree = "<group>"; };
+		2DC499781C7BEB3E0070D993 /* World.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = World.hpp; sourceTree = "<group>"; };
+		2DC499791C7BEB3E0070D993 /* Enemy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Enemy.hpp; sourceTree = "<group>"; };
+		2DC4997A1C7BEB3E0070D993 /* Action.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Action.cpp; sourceTree = "<group>"; };
+		2DC4997B1C7BEB3E0070D993 /* Action.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Action.hpp; sourceTree = "<group>"; };
+		2DC4997C1C7BEB3E0070D993 /* ActionMap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ActionMap.hpp; sourceTree = "<group>"; };
+		2DC4997D1C7BEB3E0070D993 /* ActionMap.tpl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ActionMap.tpl; sourceTree = "<group>"; };
+		2DC4997E1C7BEB3E0070D993 /* ActionTarget.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ActionTarget.hpp; sourceTree = "<group>"; };
+		2DC4997F1C7BEB3E0070D993 /* ActionTarget.tpl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ActionTarget.tpl; sourceTree = "<group>"; };
+		2DC499801C7BEB3E0070D993 /* ResourceManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ResourceManager.hpp; sourceTree = "<group>"; };
+		2DC499811C7BEB3E0070D993 /* Collision.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Collision.cpp; sourceTree = "<group>"; };
+		2DC499821C7BEB3E0070D993 /* Collision.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Collision.hpp; sourceTree = "<group>"; };
+		2DC499831C7BEB3E0070D993 /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sounds; sourceTree = "<group>"; };
+		2DC499841C7BEB3E0070D993 /* musics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = musics; sourceTree = "<group>"; };
+		2DC499851C7BEB3E0070D993 /* font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = font; sourceTree = "<group>"; };
+		2DC499861C7BEB3E0070D993 /* Meteor */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Meteor; sourceTree = "<group>"; };
+		2DC499871C7BEB3E0070D993 /* Player */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Player; sourceTree = "<group>"; };
+		2DC499881C7BEB3E0070D993 /* Saucer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Saucer; sourceTree = "<group>"; };
+		2DC499891C7BEB3E0070D993 /* Shoot */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shoot; sourceTree = "<group>"; };
+		2DC499A51C7BEC9E0070D993 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +105,46 @@
 		2DC4994F1C7BEAAD0070D993 /* AsteroidJazz2 */ = {
 			isa = PBXGroup;
 			children = (
-				2DC499521C7BEAAD0070D993 /* ResourcePath.mm */,
-				2DC499541C7BEAAD0070D993 /* ResourcePath.hpp */,
-				2DC499551C7BEAAD0070D993 /* main.cpp */,
+				2DC499651C7BEB3E0070D993 /* Configuration.cpp */,
+				2DC499661C7BEB3E0070D993 /* Player.cpp */,
+				2DC499671C7BEB3E0070D993 /* ResourceManager.tpl */,
+				2DC499801C7BEB3E0070D993 /* ResourceManager.hpp */,
+				2DC499681C7BEB3E0070D993 /* Saucer.cpp */,
+				2DC499691C7BEB3E0070D993 /* Entity.cpp */,
+				2DC4996A1C7BEB3E0070D993 /* Game.cpp */,
+				2DC4996B1C7BEB3E0070D993 /* Shoot.cpp */,
+				2DC4996C1C7BEB3E0070D993 /* Shoot.hpp */,
+				2DC4996D1C7BEB3E0070D993 /* Entity.hpp */,
+				2DC4996E1C7BEB3E0070D993 /* Entity.tpl */,
+				2DC4996F1C7BEB3E0070D993 /* Player.hpp */,
+				2DC499701C7BEB3E0070D993 /* Game.hpp */,
+				2DC499711C7BEB3E0070D993 /* World.cpp */,
+				2DC499721C7BEB3E0070D993 /* Configuration.hpp */,
+				2DC499731C7BEB3E0070D993 /* Enemy.cpp */,
+				2DC499741C7BEB3E0070D993 /* Meteor.cpp */,
+				2DC499751C7BEB3E0070D993 /* Meteor.hpp */,
+				2DC499761C7BEB3E0070D993 /* Random.hpp */,
+				2DC499771C7BEB3E0070D993 /* Saucer.hpp */,
+				2DC499781C7BEB3E0070D993 /* World.hpp */,
+				2DC499791C7BEB3E0070D993 /* Enemy.hpp */,
+				2DC4997A1C7BEB3E0070D993 /* Action.cpp */,
+				2DC4997B1C7BEB3E0070D993 /* Action.hpp */,
+				2DC4997C1C7BEB3E0070D993 /* ActionMap.hpp */,
+				2DC4997D1C7BEB3E0070D993 /* ActionMap.tpl */,
+				2DC4997E1C7BEB3E0070D993 /* ActionTarget.hpp */,
+				2DC4997F1C7BEB3E0070D993 /* ActionTarget.tpl */,
+				2DC499811C7BEB3E0070D993 /* Collision.cpp */,
+				2DC499821C7BEB3E0070D993 /* Collision.hpp */,
+				2DC499831C7BEB3E0070D993 /* sounds */,
+				2DC499841C7BEB3E0070D993 /* musics */,
+				2DC499851C7BEB3E0070D993 /* font */,
+				2DC499861C7BEB3E0070D993 /* Meteor */,
+				2DC499871C7BEB3E0070D993 /* Player */,
+				2DC499881C7BEB3E0070D993 /* Saucer */,
+				2DC499891C7BEB3E0070D993 /* Shoot */,
 				2DC499571C7BEAAD0070D993 /* Resources */,
 				2DC499501C7BEAAD0070D993 /* Supporting Files */,
+				2DC499A51C7BEC9E0070D993 /* main.cpp */,
 			);
 			path = AsteroidJazz2;
 			sourceTree = "<group>";
@@ -77,10 +160,6 @@
 		2DC499571C7BEAAD0070D993 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2DC499581C7BEAAD0070D993 /* cute_image.jpg */,
-				2DC4995A1C7BEAAD0070D993 /* nice_music.ogg */,
-				2DC4995C1C7BEAAD0070D993 /* sansation.ttf */,
-				2DC4995E1C7BEAAD0070D993 /* icon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -142,10 +221,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DC4995F1C7BEAAD0070D993 /* icon.png in Resources */,
-				2DC4995D1C7BEAAD0070D993 /* sansation.ttf in Resources */,
-				2DC4995B1C7BEAAD0070D993 /* nice_music.ogg in Resources */,
-				2DC499591C7BEAAD0070D993 /* cute_image.jpg in Resources */,
+				2DC4999F1C7BEB3E0070D993 /* Shoot in Resources */,
+				2DC499991C7BEB3E0070D993 /* sounds in Resources */,
+				2DC499961C7BEB3E0070D993 /* ActionMap.tpl in Resources */,
+				2DC4999C1C7BEB3E0070D993 /* Meteor in Resources */,
+				2DC4998C1C7BEB3E0070D993 /* ResourceManager.tpl in Resources */,
+				2DC499911C7BEB3E0070D993 /* Entity.tpl in Resources */,
+				2DC4999E1C7BEB3E0070D993 /* Saucer in Resources */,
+				2DC4999B1C7BEB3E0070D993 /* font in Resources */,
+				2DC4999A1C7BEB3E0070D993 /* musics in Resources */,
+				2DC4999D1C7BEB3E0070D993 /* Player in Resources */,
+				2DC499971C7BEB3E0070D993 /* ActionTarget.tpl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,8 +258,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DC499561C7BEAAD0070D993 /* main.cpp in Sources */,
-				2DC499531C7BEAAD0070D993 /* ResourcePath.mm in Sources */,
+				2DC499981C7BEB3E0070D993 /* Collision.cpp in Sources */,
+				2DC499931C7BEB3E0070D993 /* Enemy.cpp in Sources */,
+				2DC4998E1C7BEB3E0070D993 /* Entity.cpp in Sources */,
+				2DC499921C7BEB3E0070D993 /* World.cpp in Sources */,
+				2DC499941C7BEB3E0070D993 /* Meteor.cpp in Sources */,
+				2DC4998D1C7BEB3E0070D993 /* Saucer.cpp in Sources */,
+				2DC4998B1C7BEB3E0070D993 /* Player.cpp in Sources */,
+				2DC4998A1C7BEB3E0070D993 /* Configuration.cpp in Sources */,
+				2DC4998F1C7BEB3E0070D993 /* Game.cpp in Sources */,
+				2DC499A61C7BEC9E0070D993 /* main.cpp in Sources */,
+				2DC499901C7BEB3E0070D993 /* Shoot.cpp in Sources */,
+				2DC499951C7BEB3E0070D993 /* Action.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +407,7 @@
 				2DC499641C7BEAAD0070D993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
